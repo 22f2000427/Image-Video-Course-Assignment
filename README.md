@@ -35,8 +35,8 @@ project_root/
 
 🛠️ Installation Instructions
 Clone the repository:
-git clone https://github.com/22f2000427/Image-Video-Course-Assignment.git
-cd Image-Video-Assignment
+git clone https://github.com/22f2000427/project-Aastha-Gupta.git
+cd project-Aastha-Gupta
 
 Install dependencies:
 pip install -r requirements.txt
