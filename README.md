@@ -69,7 +69,7 @@ Predicted: Smiling / Non Smiling
 ├── dataset.py          # Dataset and DataLoader setup
 ├── config.py           # Hyperparameters (epochs, batch size, etc.)
 ├── interface.py        # Standardized interface file
-├── README.md           # Project documentation (this file)
+├── README.md           # Project documentation 
 ├── requirements.txt    # Required Python packages
 └── celebA/             # Folder containing dataset (not uploaded to GitHub)
 
