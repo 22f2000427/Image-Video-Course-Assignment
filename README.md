@@ -36,7 +36,7 @@ project_root/
 🛠️ Installation Instructions
 Clone the repository:
 git clone https://github.com/22f2000427/Image-Video-Course-Assignment.git
-cd your-repo-name
+cd Image-Video-Assignment
 
 Install dependencies:
 pip install -r requirements.txt
