@@ -23,9 +23,7 @@ Loss Function: Binary Cross Entropy (BCE Loss)
 Optimizer: Adam Optimizer
 
 📚 Dataset
-Dataset: CelebA (Large-scale CelebFaces Attributes Dataset)
-
-Download link: CelebA Dataset Website
+Dataset: CelebA (https://www.kaggle.com/datasets/jessicali9530/celeba-dataset  /   https://archive.org/details/celeba)
 
 We specifically use the 'Smiling' attribute from list_attr_celeba.txt.
 project_root/
@@ -61,7 +59,7 @@ This will start the training process and save the model weights after completion
 2. Predict on a single image
 To predict if a given image has a smiling face:
 python predict.py path_to_image.jpg
-Predicted: Smiling
+Predicted: Smiling / Non Smiling
 
 
 🗂️ Project Structure
@@ -76,14 +74,9 @@ Predicted: Smiling
 └── celebA/             # Folder containing dataset (not uploaded to GitHub)
 
 
-ℹ️ Additional Notes
+
 The code uses torchvision.transforms to resize images to 64x64 and convert them to tensors.
 
-The model outputs a probability value between 0 and 1:
-
-≥ 0.5 → Smiling
-
-< 0.5 → Not Smiling
 
 
 
