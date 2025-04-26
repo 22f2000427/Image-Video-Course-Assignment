@@ -53,12 +53,12 @@ Place the dataset correctly in the celebA/ folder as shown above.
 🚀 How to Run the Code
 1. Train the model
 To train the SmileNet model:
-python train.py
+python3 train.py
 This will start the training process and save the model weights after completion.
 
 2. Predict on a single image
 To predict if a given image has a smiling face:
-python predict.py path_to_image.jpg
+python3 predict.py path_to_image.jpg
 Predicted: Smiling / Non Smiling
 
 
